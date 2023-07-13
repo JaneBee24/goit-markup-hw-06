@@ -885,3 +885,12 @@ address{
 
 }
 
+@media (min-width: 428px){
+    .second-section-list{
+        gap: 72px;
+    }
+
+    .index-li[
+        flex-basis: calc((100% - 10px) / 2);
+    ]
+}
