@@ -890,7 +890,7 @@ address{
         gap: 72px;
     }
 
-    .index-li[
+    .index-li{
         flex-basis: calc((100% - 10px) / 2);
-    ]
+    }
 }
