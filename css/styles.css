@@ -27,6 +27,18 @@ h1, h2, h3, h4, h5, p{
 }
 
 
+@media screen and (max-width: 768px){
+    .menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .adress{
+        display: none;
+    }
+}
+
 
 .choose-link::after{
     content: "";
@@ -61,11 +73,58 @@ img{
 }
 
 .container{
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+    min-width: 329px;
+    max-width: 428px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    outline: 2px solid orangered;
+    outline-offset: -2px;
      
 }
+
+/*Tablet screen 768px*/
+
+@media screen and (min-width: 768px){
+    .container{
+        max-width: 768px;
+        padding-left: 16px;
+        padding-right: 16px;
+
+    }
+}
+
+/*Desctop screen 1440px*/
+@media only screen and (min-width: 768px){
+    .container{
+        max-width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+
+    }
+}
+
+.section{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+@media screen and (min-width: 768px){
+    .section{
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .section{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
 
 .footer-container{
     display: flex;
@@ -100,6 +159,8 @@ img{
 .footer-link{
     margin-bottom: 16px;
 }
+
+/*.index-li*/
 
 .index-li{
     flex-basis: calc((100% - 3 * 24px) / 4);
@@ -142,9 +203,18 @@ img{
 
 }
 
+/*
 .second-section-list{
-    gap: 24px; 
+     gap: 24px;
 }
+*/
+@media only screen and (max-width: 768px){
+    .second-section-list:not(:last-child){
+        margin-bottom: 72px;
+    }
+    
+}
+
 
 
 .list_{
@@ -211,6 +281,14 @@ h1, h2, h3{
 .second-section{
     padding: 120px 0;
 
+}
+
+@media only screen and (max-width: 768px){
+    .second-section{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    
 }
 
 .portfolio-list{
