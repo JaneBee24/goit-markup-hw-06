@@ -973,13 +973,11 @@ address{
     }
 }
 
-.menu-toggle-icon{
-    stroke: #2e2f42;
-}
+
 
 .menu-toggle {
-    min-height: 40px;
-    min-width: 40px;
+    min-height: 32px;
+    min-width: 22px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -992,6 +990,10 @@ address{
     border-radius: 50%;
     outline: none;
   }
+
+  .menu-toggle-icon{
+    stroke: var(--second-dark-blue-color);
+}
   
   @media (min-width: 768px) {
     .menu-toggle {
@@ -1024,26 +1026,11 @@ address{
   
   .menu-container .menu-toggle {
     position: absolute;
-    top: 16px;
-    right: 16px;
-    color: #fff;
+    top: 32px;
+    right: 32px;
+    color: var(--trhird-white-color);
   }
   
-  .mobile-menu {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-  
-  .mobile-menu .link {
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .modal-menu-adress{
-    color: var(--blue-color);
-    padding-left: 40px;
-    padding-right: 35px;
-  }
+ .mobile_menu-item{
+    
+ }
