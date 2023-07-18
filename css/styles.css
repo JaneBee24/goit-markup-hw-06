@@ -1037,3 +1037,40 @@ address{
     gap: 64px;
 
  }
+
+ .mobile_menu-link{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+ }
+
+ .modal-menu-adress{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    color: var(--blue-color);
+ }
+
+ .modal-menu-adress-link{
+    color: var(--dark-blue-color);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+ }
+
+ .mobile-menu{
+    padding-top: 80px;
+    padding-left: 40px;
+ }
+
+ .mobile-adress{
+    padding-left: 40px;
+    
+ }
