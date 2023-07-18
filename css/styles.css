@@ -972,3 +972,7 @@ address{
         flex-basis: calc((100% - 10px) / 2);
     }
 }
+
+.menu-toggle-icon{
+    stroke: #2e2f42;
+}
