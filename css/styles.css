@@ -190,8 +190,6 @@ img{
 
 .list{
     list-style: none;
-    display: flex;
-    margin: 0;
 }
 
 
@@ -210,8 +208,8 @@ img{
 @media only screen and (max-width: 768px){
     .second-section-list:not(:last-child){
         margin-bottom: 72px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 16px;
+        margin-right: 16px;
     }
     
 }
@@ -519,6 +517,12 @@ address{
 
 .thrird-section{
     padding-bottom: 120px;
+}
+
+@media screen and (max-width: 1158px){
+    .thrird-section{
+        display: none;
+    }
 }
 
 .fourth-section{
@@ -1076,6 +1080,7 @@ address{
  .mobile-menu{
     padding-top: 80px;
     padding-left: 40px;
+    margin-bottom: auto;
  }
 
  .mobile-adress{
