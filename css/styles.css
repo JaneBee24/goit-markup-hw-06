@@ -210,6 +210,8 @@ img{
 @media only screen and (max-width: 768px){
     .second-section-list:not(:last-child){
         margin-bottom: 72px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
 }
@@ -279,7 +281,7 @@ h1, h2, h3{
 
 .second-section{
     padding: 120px 0;
-
+    position: relative;
 }
 
 @media only screen and (max-width: 768px){
@@ -962,13 +964,19 @@ address{
 
 }
 
-@media screen and (min-width: 428px){
+@media screen and (max-width: 428px){
     .second-section-list{
         gap: 72px;
     }
 
-    .index-li{
+    .second-section-list{
         flex-basis: calc((100% - 10px) / 2);
+    }
+
+    .third-section-li{
+        flex-basis: calc((100% - 10px) / 2);
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
