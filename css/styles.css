@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, p{
 }
 
 
-@media (max-width: 768px){
+@media screen and (max-width: 767.8px){
     .menu{
         display: none;
     }
@@ -962,7 +962,7 @@ address{
 
 }
 
-@media (min-width: 428px){
+@media screen and (min-width: 428px){
     .second-section-list{
         gap: 72px;
     }
@@ -991,7 +991,7 @@ address{
     stroke: var(--second-dark-blue-color);
 }
   
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .menu-toggle {
       display: none;
     }
@@ -1072,5 +1072,10 @@ address{
 
  .mobile-adress{
     padding-left: 40px;
-    
+
+ }
+
+ .mobile_menu-item:not(:last-child){
+    margin-bottom: 40px;
+
  }
