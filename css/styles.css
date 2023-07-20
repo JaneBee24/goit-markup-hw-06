@@ -213,6 +213,10 @@ img{
         margin-left: 16px;
         margin-right: 16px;
     }
+
+    .index-li{
+        width: 396px;
+    }
     
 }
 
@@ -525,6 +529,12 @@ h1, h2, h3{
 
 address{
     margin-left: auto;
+}
+
+@media screen and (max-width: 768px){
+    .address{
+        display: none;
+    }
 }
 
 
