@@ -118,10 +118,11 @@ img{
     }
 }
 
-@media screen and (min-width: 1440px){
-    .section{
-        padding-top: 60px;
-        padding-bottom: 60px;
+@media screen and (min-width: 1158px){
+    .footer-container{
+        display: flex;
+        align-items: baseline;
+        margin-left: 156px;
     }
 }
 
@@ -133,9 +134,11 @@ img{
     
 }
 
+
+
 .footer-second-container{
     flex-direction: column;
-    width: 268px;
+
 }
 
 .logo{
@@ -161,10 +164,11 @@ img{
     margin-bottom: 16px;
 }
 
-
-/*.index-li{
-    flex-basis: calc((100% - 3 * 24px) / 4);
-}*/
+@media screen and (min-width: 1158px){
+    .index-li{
+        flex-basis: calc((100% - 3 * 24px) / 4);
+    }
+}
 
 @media screen and (min-width: 768px){
     .second-section-list{
@@ -200,12 +204,13 @@ img{
     .fifth-section-list{
         display: flex;
         flex-wrap: wrap;
-        gap: 24px
+        gap: 24px;
+        padding: 0;
     }
 
     
     .fifth-section-li{
-        flex-basis: calc((100% - 108px) / 2);
+        flex-basis: calc((100% - 216px) / 2);
         
     }
 }
@@ -261,11 +266,12 @@ img{
 
 }
 
-/*
-.second-section-list{
-     gap: 24px;
+@media screen and (min-width: 1158px){
+    .second-section-list{
+        gap: 24px;
+   }
 }
-*/
+
 @media only screen and (max-width: 767.8px){
     .second-section-list{
         margin-left: 16px;
@@ -356,7 +362,7 @@ h1, h2, h3{
 
 @media only screen and (min-width: 767.8px){
     .second-section-list{
-        width: 356px;
+        padding: 0;
     }
     
 }
@@ -476,7 +482,7 @@ h1, h2, h3{
 .fourth-section-list{
     display: flex;
     gap: 24px; 
-
+    padding: 0;
 }
 
 .fourth-list-title{
@@ -600,7 +606,7 @@ h1, h2, h3{
 
 @media screen and (min-width:  1158px){
     .footer{
-        width: 1440px;
+        min-width: 1158px;
     }
 }
 
@@ -689,14 +695,26 @@ address{
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    row-gap: 72px;
-    column-gap: 16px;
 }
 
 .fifth-section-li{
-    width: calc((100% - 16px) / 2);
+    width: calc((100% - 216px) / 3);
     height: 88px;
 
+}
+
+@media screen and (min-width: 1158px){
+    .fifth-section-list{
+        display: flex;
+        gap: 24px; 
+        padding: 0;
+    }
+
+    .fifth-section-li{
+        width: calc((100% - 120px) / 6);
+        height: 88px;
+    
+    }
 }
 
 .fifth-section-link{
@@ -794,6 +812,20 @@ address{
     margin-bottom: 8px;
     max-width: 428px;
 
+}
+
+@media screen and (min-width: 768) or (max-width: 1157.8px){
+    .customers-container{
+        width: 552px;
+    }
+}
+
+@media screen and (min-width: 768) or (max-width: 1157.8px){
+    .footer-container{
+        width: 552px;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 1158px){
