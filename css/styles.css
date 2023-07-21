@@ -440,13 +440,14 @@ h1, h2, h3{
 
 }
 
-/*.fourth-section-contact-list{
+.fourth-section-contact-list{
     display: flex;
     justify-content: center; 
+    /*
     gap: 56px;
     padding: 0;
-    margin-top: 21px;
-}*/
+    margin-top: 21px;*/
+}
 
 .fourth-section-contact-li{
     width: 40px;
@@ -525,8 +526,8 @@ h1, h2, h3{
 .footer{
     background-color: var(--second-dark-blue-color);
     padding: 100px 0;
-
-
+    width: 428px;
+    height: 664px;
 }
 
 
@@ -936,6 +937,7 @@ address{
 @media screen and (max-width: 768px){
     .footer-form-div{
         justify-content: space-between;
+        margin-bottom: 24px;
     }
 }
 
