@@ -916,6 +916,13 @@ address{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer-form-div{
+        justify-content: space-between;
     }
 }
 
@@ -1170,3 +1177,9 @@ address{
     margin-bottom: 40px;
 
  }
+
+ @media screen and (min-width: 768px) {
+    .menu-container{
+      display: none;
+    }
+  }
