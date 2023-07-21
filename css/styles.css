@@ -225,8 +225,11 @@ img{
 }
 
 @media screen and (min-width: 1440px){
-    .adress{
-
+    .adress-list{
+        display: flex;
+        width: 153px;
+        justify-content: center;
+        align-items: center;
     }
 }
 
