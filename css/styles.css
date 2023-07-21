@@ -711,11 +711,23 @@ address{
 
 }
 
-@media screen and (min-width: 1158px){
+@media screen and (max-width: 1158px){
     .index-li-div{
         display: none;
     }
 }
+
+@media screen and (min-width: 1158px){
+    .index-li-div{
+        display: flex;
+        width: 264px;
+        flex-direction: column;
+     align-items: flex-start;
+        gap: 8px;
+    }
+}
+
+
 
 .modal-data{
     position: fixed;
@@ -840,7 +852,8 @@ address{
 
 .footer-form{
     border-radius: 4px;
-
+    width: 398px;
+    height: 40px;
 }
 
 .modal-form{
@@ -889,7 +902,7 @@ address{
 }
 
 .footer-form{
-    display: flex;
+    flex-direction: column;
     gap: 24px;
 }
 
@@ -944,6 +957,7 @@ address{
     border-radius: 4px;
 
 }
+
 
 .button-svg{
     margin-left: 16px;
