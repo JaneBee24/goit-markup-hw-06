@@ -130,12 +130,15 @@ img{
     align-items: center;
     justify-content: center;
     margin-left: 156px;
+    
 }
 
 .footer-second-container{
     margin-right: 158px;
     flex-direction: column;
-
+    width: 268px;
+    height: 112px;
+    margin-bottom: 72px;
 }
 
 .logo{
@@ -912,7 +915,7 @@ address{
         gap: 16px;
         justify-content: center;
         align-items: center;
-
+        flex-direction: column;
     }
 }
 
@@ -967,6 +970,9 @@ address{
     fill: var(--blue-color);
 }
 
+.modal-form-div-input:hover .modal-svg{
+    fill: var(--blue-color);
+}
 
 .modal-input:focus{
     border-color: var(--blue-color);
