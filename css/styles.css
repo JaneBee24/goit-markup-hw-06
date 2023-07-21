@@ -514,8 +514,12 @@ h1, h2, h3{
     justify-content: center; 
     gap: 24px;
     padding: 0; 
-    /*
-    margin-top: 21px;*/
+}
+
+@media screen and (min-width: 1158px){
+    .fourth-section-contact-list{
+        margin-top: 21px;
+    }
 }
 
 .fourth-section-contact-li{
@@ -635,7 +639,7 @@ address{
     padding-bottom: 120px;
 }
 
-@media screen and (max-width: 1158px){
+@media screen and (max-width: 1157.8px){
     .thrird-section{
         display: none;
     }
