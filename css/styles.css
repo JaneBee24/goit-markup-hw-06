@@ -192,7 +192,6 @@ img{
     
     .list_{
         flex-basis: calc((100% - 216px) / 3);
-        
 
     }
 }
@@ -208,7 +207,6 @@ img{
     .fifth-section-li{
         flex-basis: calc((100% - 108px) / 2);
         
-
     }
 }
 
