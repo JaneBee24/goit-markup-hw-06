@@ -224,7 +224,6 @@ img{
 .address{
     font-style: normal;
     transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    margin-top: 24px;
 }
 
 @media screen and (min-width: 1440px){
@@ -237,7 +236,6 @@ img{
 }
 
 .adress-list{
-    display: flex;
     gap: 40px;
 }
 
@@ -305,7 +303,6 @@ h1, h2, h3{
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--second-dark-blue-color);
-    padding: 24px 0;
     position: relative; 
     transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1126,6 +1123,7 @@ address{
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--second-dark-blue-color)
 
 }
 
@@ -1284,6 +1282,7 @@ address{
     font-weight: 700;
     letter-spacing: 0.72px;
     color: var(--blue-color);
+    margin-bottom: 40px;
  }
 
  .modal-menu-adress-link{
@@ -1297,13 +1296,10 @@ address{
  }
 
  .mobile-menu{
-    padding-top: 80px;
-    padding-left: 40px;
-    margin-bottom: auto;
+    padding: 0;
  }
 
  .mobile-adress{
-    margin-left: 40px;
     padding: 0;
 
  }
@@ -1409,11 +1405,10 @@ img{
 .address{
     font-style: normal;
     transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    margin-top: 24px;
 }
 
 .adress-list{
-    display: flex;
+
     gap: 40px;
 }
 
@@ -1431,7 +1426,6 @@ img{
 
 .list{
     list-style: none;
-    display: flex;
     margin: 0;
 }
 
