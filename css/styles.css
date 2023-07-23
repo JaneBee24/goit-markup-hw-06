@@ -186,7 +186,7 @@ img{
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1158px){
     .fourth-section-list{
         display: flex;
         flex-wrap: wrap;
@@ -437,7 +437,7 @@ h1, h2, h3{
 
 .thrird-section-list{
     gap: 24px;
-
+display: flex;
 }
 
 .thrird-section-li{
@@ -1736,6 +1736,7 @@ address{
 
 .thrird-section{
     padding-bottom: 120px;
+    display: flex;
 }
 
 .fourth-section{
