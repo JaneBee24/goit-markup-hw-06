@@ -777,6 +777,10 @@ address{
     padding: 0;
 }
 
+.footer-second-container{
+    padding: 0;
+}
+
 .link-list{
     width: 40px;
     height: 40px;
@@ -1039,7 +1043,6 @@ address{
 @media screen and (min-width: 768px){
     .footer-form-div{
         margin-top: 72px;
-        margin-left: 108px;
         gap: 16px;
         justify-content: center;
         align-items: center;
