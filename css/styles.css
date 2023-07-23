@@ -697,7 +697,7 @@ address{
 }
 
 .fifth-section-li{
-    width: calc((100% - 216px) / 3);
+    width: calc((100% - 32px) / 3);
     height: 88px;
 
 }
