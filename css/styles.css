@@ -207,7 +207,6 @@ img{
         gap: 24px;
         padding: 0;
     }
-
     
     .fifth-section-li{
         flex-basis: calc((100% - 48px) / 3);
@@ -718,7 +717,7 @@ address{
     margin-bottom: 48px;
 }
 
-@media screen and (min-width: 115.8px){
+@media screen and (min-width: 1115.8px){
     .fifth-section-list{
         display: flex;
         gap: 24px; 
@@ -1063,9 +1062,15 @@ address{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
     }
 }
+
+@media screen and (min-width: 1158px){
+    .footer-form-div{
+        padding-left: 80px;
+    }
+}
+
 
 @media screen and (max-width: 768px){
     .footer-form-div{
