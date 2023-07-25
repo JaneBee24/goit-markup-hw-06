@@ -227,12 +227,9 @@ img{
     margin-top: 24px;
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1158px){
     .adress-list{
-        display: flex;
-        width: 153px;
-        justify-content: center;
-        align-items: center;
+        padding-bottom: 24px;
     }
 }
 
@@ -308,6 +305,8 @@ h1, h2, h3{
     padding: 24px 0;
     position: relative; 
     transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .link-text::after{
@@ -385,7 +384,15 @@ h1, h2, h3{
     letter-spacing: 0.02em;
     color:var(--white-color);
     margin: 0 auto;
+    width: 496px;
 }
+
+@media screen and (max-width: 768px){
+    .main-banner-text{
+        width: 320px;
+    } 
+}
+
 
 .main-banner-button{
     background-color: var(--blue-color);
