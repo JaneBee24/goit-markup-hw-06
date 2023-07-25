@@ -387,6 +387,7 @@ h1, h2, h3{
     color:var(--white-color);
     margin: 0 auto;
     width: 496px;
+    margin-bottom: 48px;
 }
 
 @media screen and (max-width: 768px){
