@@ -1107,6 +1107,14 @@ address{
 
 }
 
+@media screen and (max-width: 768px){
+    .footer-form-button{
+        margin-top: 16;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 
 .button-svg{
     margin-left: 16px;
