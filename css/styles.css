@@ -1073,8 +1073,7 @@ address{
 }
 
 @media screen and (min-width: 1158px){
-    .footer-form-div{
-        margin-right: 159px;
+    .footer-form{
         display: flex;
     }
 }
@@ -1114,6 +1113,8 @@ address{
         margin-right: auto;
     }
 }
+
+
 
 
 .button-svg{
