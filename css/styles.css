@@ -1062,7 +1062,7 @@ address{
     
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1158px){
     .footer-form-div{
         margin-top: 72px;
         gap: 16px;
@@ -1075,8 +1075,10 @@ address{
 @media screen and (min-width: 1158px){
     .footer-form-div{
         margin-right: 159px;
+        display: flex;
     }
 }
+
 
 
 @media screen and (max-width: 768px){
